@@ -1,17 +1,22 @@
-//
-//  shapeView4.swift
-//  SwiftUIpractice
-//
-//  Created by Dr. Shrikant Maraskolhe on 09/04/24.
-//
-
 import SwiftUI
 
+//MARK: When should you use ContainerRelativeShape?
 struct shapeView4: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            ContainerRelativeShape()
+                .inset(by: 4)
+                .fill(Color.blue)
+            
+            Text("Hello, World!")
+                .font(.title)
+        }
+        .frame(width: 300, height: 200)
+        .background(Color.red)
+        .clipShape(Capsule())
     }
 }
+
 
 #Preview {
     shapeView4()

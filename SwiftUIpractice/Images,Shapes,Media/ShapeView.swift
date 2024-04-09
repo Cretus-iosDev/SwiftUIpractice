@@ -1,7 +1,7 @@
 import SwiftUI
 
 //MARK: render a gradient
-struct ImageView2: View {
+struct ShapeView: View {
     var body: some View {
         ScrollView(.vertical) {
             Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
@@ -120,5 +120,5 @@ struct ImageView2: View {
 }
 
 #Preview {
-    ImageView2()
+    ShapeView()
 }

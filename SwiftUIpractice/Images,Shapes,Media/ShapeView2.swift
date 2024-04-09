@@ -1,7 +1,7 @@
 import SwiftUI
 
 //MARK: use images and other views as a backgrounds
-struct ImageView3: View {
+struct ShapeView2: View {
     var body: some View {
         ScrollView(.vertical) {
             Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
@@ -55,5 +55,5 @@ struct ImageView3: View {
 }
 
 #Preview {
-    ImageView3()
+    ShapeView2()
 }

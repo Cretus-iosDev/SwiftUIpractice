@@ -17,6 +17,15 @@
 		F43BE2A32BC3A564002D44D6 /* TextView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BE2A22BC3A564002D44D6 /* TextView3.swift */; };
 		F43BE2A52BC3A7CA002D44D6 /* TextView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BE2A42BC3A7CA002D44D6 /* TextView4.swift */; };
 		F43BE2A72BC3AB5D002D44D6 /* TextView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BE2A62BC3AB5D002D44D6 /* TextView5.swift */; };
+		F43BE2C42BC3BCA2002D44D6 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BE2C32BC3BCA2002D44D6 /* ImageView.swift */; };
+		F4CD0E3C2BC587A10098DBCB /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD0E3B2BC587A10098DBCB /* ShapeView.swift */; };
+		F4CD0E3E2BC58A1E0098DBCB /* ShapeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD0E3D2BC58A1E0098DBCB /* ShapeView2.swift */; };
+		F4CD0E402BC58C3E0098DBCB /* ShapView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD0E3F2BC58C3E0098DBCB /* ShapView3.swift */; };
+		F4CD0E422BC58EB10098DBCB /* shapeView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD0E412BC58EB10098DBCB /* shapeView4.swift */; };
+		F4CD0E472BC590BA0098DBCB /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CD0E462BC590BA0098DBCB /* AVKit.framework */; };
+		F4CD0E4B2BC592ED0098DBCB /* MediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD0E4A2BC592ED0098DBCB /* MediaView.swift */; };
+		F4CD0E4D2BC5952A0098DBCB /* MediaView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD0E4C2BC5952A0098DBCB /* MediaView2.swift */; };
+		F4CD0E4F2BC5990D0098DBCB /* MediaView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD0E4E2BC5990D0098DBCB /* MediaView3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +40,15 @@
 		F43BE2A22BC3A564002D44D6 /* TextView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView3.swift; sourceTree = "<group>"; };
 		F43BE2A42BC3A7CA002D44D6 /* TextView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView4.swift; sourceTree = "<group>"; };
 		F43BE2A62BC3AB5D002D44D6 /* TextView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView5.swift; sourceTree = "<group>"; };
+		F43BE2C32BC3BCA2002D44D6 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		F4CD0E3B2BC587A10098DBCB /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		F4CD0E3D2BC58A1E0098DBCB /* ShapeView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView2.swift; sourceTree = "<group>"; };
+		F4CD0E3F2BC58C3E0098DBCB /* ShapView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapView3.swift; sourceTree = "<group>"; };
+		F4CD0E412BC58EB10098DBCB /* shapeView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapeView4.swift; sourceTree = "<group>"; };
+		F4CD0E462BC590BA0098DBCB /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		F4CD0E4A2BC592ED0098DBCB /* MediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaView.swift; sourceTree = "<group>"; };
+		F4CD0E4C2BC5952A0098DBCB /* MediaView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaView2.swift; sourceTree = "<group>"; };
+		F4CD0E4E2BC5990D0098DBCB /* MediaView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaView3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4CD0E472BC590BA0098DBCB /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +68,7 @@
 			children = (
 				F43BE28C2BC39FB4002D44D6 /* SwiftUIpractice */,
 				F43BE28B2BC39FB4002D44D6 /* Products */,
+				F4CD0E452BC590BA0098DBCB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,7 +83,7 @@
 		F43BE28C2BC39FB4002D44D6 /* SwiftUIpractice */ = {
 			isa = PBXGroup;
 			children = (
-				F43BE2A82BC3AE33002D44D6 /* Images */,
+				F43BE2A82BC3AE33002D44D6 /* Images,Shapes,Media */,
 				F43BE29B2BC39FD0002D44D6 /* Text */,
 				F43BE28D2BC39FB4002D44D6 /* SwiftUIpracticeApp.swift */,
 				F43BE28F2BC39FB4002D44D6 /* ContentView.swift */,
@@ -94,11 +114,27 @@
 			path = Text;
 			sourceTree = "<group>";
 		};
-		F43BE2A82BC3AE33002D44D6 /* Images */ = {
+		F43BE2A82BC3AE33002D44D6 /* Images,Shapes,Media */ = {
 			isa = PBXGroup;
 			children = (
+				F43BE2C32BC3BCA2002D44D6 /* ImageView.swift */,
+				F4CD0E3B2BC587A10098DBCB /* ShapeView.swift */,
+				F4CD0E3D2BC58A1E0098DBCB /* ShapeView2.swift */,
+				F4CD0E3F2BC58C3E0098DBCB /* ShapView3.swift */,
+				F4CD0E412BC58EB10098DBCB /* shapeView4.swift */,
+				F4CD0E4A2BC592ED0098DBCB /* MediaView.swift */,
+				F4CD0E4C2BC5952A0098DBCB /* MediaView2.swift */,
+				F4CD0E4E2BC5990D0098DBCB /* MediaView3.swift */,
 			);
-			path = Images;
+			path = "Images,Shapes,Media";
+			sourceTree = "<group>";
+		};
+		F4CD0E452BC590BA0098DBCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4CD0E462BC590BA0098DBCB /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,13 +207,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4CD0E402BC58C3E0098DBCB /* ShapView3.swift in Sources */,
 				F43BE2902BC39FB4002D44D6 /* ContentView.swift in Sources */,
+				F4CD0E3C2BC587A10098DBCB /* ShapeView.swift in Sources */,
 				F43BE2A12BC3A3B2002D44D6 /* TextView2.swift in Sources */,
 				F43BE29F2BC3A297002D44D6 /* dummyView.swift in Sources */,
 				F43BE29D2BC3A047002D44D6 /* TextView.swift in Sources */,
+				F4CD0E3E2BC58A1E0098DBCB /* ShapeView2.swift in Sources */,
+				F4CD0E4B2BC592ED0098DBCB /* MediaView.swift in Sources */,
 				F43BE28E2BC39FB4002D44D6 /* SwiftUIpracticeApp.swift in Sources */,
+				F4CD0E4F2BC5990D0098DBCB /* MediaView3.swift in Sources */,
 				F43BE2A32BC3A564002D44D6 /* TextView3.swift in Sources */,
+				F43BE2C42BC3BCA2002D44D6 /* ImageView.swift in Sources */,
 				F43BE2A52BC3A7CA002D44D6 /* TextView4.swift in Sources */,
+				F4CD0E422BC58EB10098DBCB /* shapeView4.swift in Sources */,
+				F4CD0E4D2BC5952A0098DBCB /* MediaView2.swift in Sources */,
 				F43BE2A72BC3AB5D002D44D6 /* TextView5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
