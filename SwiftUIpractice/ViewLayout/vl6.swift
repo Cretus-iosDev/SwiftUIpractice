@@ -1,15 +1,21 @@
-//
-//  vl6.swift
-//  SwiftUIpractice
-//
-//  Created by Dr. Shrikant Maraskolhe on 10/04/24.
-//
-
 import SwiftUI
 
+
+//MARK: control layout priority using layoutPriority()
 struct vl6: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text("The rain Spain falls mainly on the Spaniards.")
+            Text("Knowledge is power, France is bacon.")
+        }
+        .font(.largeTitle)
+        Divider()
+        HStack {
+            Text("The rain Spain falls mainly on the Spaniards.")
+            Text("Knowledge is power, France is bacon.")
+                .layoutPriority(1)
+        }
+        .font(.largeTitle)
     }
 }
 

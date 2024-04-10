@@ -1,15 +1,40 @@
-//
-//  vl2.swift
-//  SwiftUIpractice
-//
-//  Created by Dr. Shrikant Maraskolhe on 10/04/24.
-//
-
 import SwiftUI
 
 struct vl2: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+//MARK: control spacing around individual views using padding
+        ScrollView(.vertical) {
+            VStack {
+                Text("Using")
+                Text("SwiftUI")
+                    .padding()
+                Text("rocks")
+            }
+            Divider()
+            VStack {
+               Text("Using")
+               Text("SwiftUI")
+                  .padding(.bottom)
+               Text("rocks")
+            }
+           
+            Divider()
+            VStack {
+               Text("Using")
+               Text("SwiftUI")
+                  .padding(100)
+               Text("rocks")
+            }
+            Divider()
+            
+            VStack {
+               Text("Using")
+               Text("SwiftUI")
+                  .padding(.bottom, 100)
+               Text("rocks")
+            }
+        }
+        .padding()
     }
 }
 

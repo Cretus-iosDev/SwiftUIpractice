@@ -1,15 +1,33 @@
-//
-//  VL1.swift
-//  SwiftUIpractice
-//
-//  Created by Dr. Shrikant Maraskolhe on 10/04/24.
-//
-
 import SwiftUI
 
+// MARK: give a view a custom frame
 struct VL1: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+
+            Button{
+                print("Button Tapped")
+            } label: {
+                Text("Welcome")
+                    .frame(
+                        minWidth: 0,
+                        maxWidth: 200,
+                        minHeight: 0,
+                        maxHeight: 200
+                    )
+                    .font(.largeTitle)
+            }
+        
+        Text("Please log In")
+            .frame(
+                minWidth: 0,
+                maxWidth: .infinity,
+                minHeight: 0,
+                maxHeight: .infinity
+            )
+            .font(.largeTitle)
+            .foregroundColor(.white)
+            .background(.red)
+            //.ignoresSafeArea(.all)
     }
 }
 
