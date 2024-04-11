@@ -1,15 +1,26 @@
-//
-//  sgsView4.swift
-//  SwiftUIpractice
-//
-//  Created by Dr. Shrikant Maraskolhe on 11/04/24.
-//
-
 import SwiftUI
 
 struct sgsView4: View {
+//MARK: layer views on top of each other using ZStack
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView(.vertical) {
+            ZStack {
+                Image("img4")
+                Text("Hacking with Swift")
+                    .font(.largeTitle)
+                    .background(Color.black)
+                    .foregroundColor(.white)
+            }
+            
+            ZStack(alignment: .leading) {
+               Image("img4")
+               Text("Hacking with Swift")
+                    .font(.largeTitle)
+                    .background(Color.black)
+                    .foregroundColor(.white)
+            }
+            
+        }
     }
 }
 

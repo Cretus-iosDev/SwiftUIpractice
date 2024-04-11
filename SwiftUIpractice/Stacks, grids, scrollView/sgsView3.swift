@@ -1,15 +1,20 @@
-//
-//  sgsView3.swift
-//  SwiftUIpractice
-//
-//  Created by Dr. Shrikant Maraskolhe on 11/04/24.
-//
-
 import SwiftUI
 
 struct sgsView3: View {
+//MARK: make a fixed size Spacer
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+//        VStack {
+//           Text("First Label")
+//           Spacer()
+//              .frame(height: 50)
+//           Text("Second Label")
+//        }
+        
+        VStack {
+           Text("First Label")
+           Spacer(minLength: 50)
+           Text("Second Label")
+        }
     }
 }
 
