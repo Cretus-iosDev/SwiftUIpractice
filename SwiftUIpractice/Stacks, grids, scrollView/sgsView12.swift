@@ -1,15 +1,21 @@
-//
-//  sgsView12.swift
-//  SwiftUIpractice
-//
-//  Created by Dr. Shrikant Maraskolhe on 12/04/24.
-//
-
 import SwiftUI
 
 struct sgsView12: View {
+    //MARK: How to add visual effect blurs
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+           Image("img4")
+           Text("Visit Singapore")
+              .padding()
+              .background(.thinMaterial)
+        }
+        ZStack {
+           Image("img4")
+           Text("Visit Singapore")
+                .foregroundColor(.secondary)
+                      .padding()
+                      .background(.ultraThinMaterial)
+        }
     }
 }
 

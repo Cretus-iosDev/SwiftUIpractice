@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F41422AB2BC8F9B9008A026D /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41422AA2BC8F9B9008A026D /* ARKit.framework */; };
+		F41422FD2BC8FCE2008A026D /* SwiftUIpracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41422FC2BC8FCE2008A026D /* SwiftUIpracticeApp.swift */; };
+		F41422FF2BC8FE1F008A026D /* sgsView9.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41422FE2BC8FE1F008A026D /* sgsView9.swift */; };
+		F41423012BC9033C008A026D /* sgsView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41423002BC9033C008A026D /* sgsView10.swift */; };
 		F4142FD52BC658030084A70F /* VL1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4142FD42BC658030084A70F /* VL1.swift */; };
 		F4142FD72BC6596C0084A70F /* vl2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4142FD62BC6596C0084A70F /* vl2.swift */; };
 		F4142FD92BC65A2C0084A70F /* vl3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4142FD82BC65A2C0084A70F /* vl3.swift */; };
@@ -36,13 +40,18 @@
 		F4CD0E3E2BC58A1E0098DBCB /* ShapeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD0E3D2BC58A1E0098DBCB /* ShapeView2.swift */; };
 		F4CD0E402BC58C3E0098DBCB /* ShapView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD0E3F2BC58C3E0098DBCB /* ShapView3.swift */; };
 		F4CD0E422BC58EB10098DBCB /* shapeView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD0E412BC58EB10098DBCB /* shapeView4.swift */; };
-		F4CD0E472BC590BA0098DBCB /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CD0E462BC590BA0098DBCB /* AVKit.framework */; };
 		F4CD0E4B2BC592ED0098DBCB /* MediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD0E4A2BC592ED0098DBCB /* MediaView.swift */; };
 		F4CD0E4D2BC5952A0098DBCB /* MediaView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD0E4C2BC5952A0098DBCB /* MediaView2.swift */; };
 		F4CD0E4F2BC5990D0098DBCB /* MediaView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD0E4E2BC5990D0098DBCB /* MediaView3.swift */; };
+		F4DE8E652BC94002000C7AA5 /* sgsView11.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DE8E642BC94002000C7AA5 /* sgsView11.swift */; };
+		F4DE8E672BC94920000C7AA5 /* sgsView12.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DE8E662BC94920000C7AA5 /* sgsView12.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F41422AA2BC8F9B9008A026D /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		F41422FC2BC8FCE2008A026D /* SwiftUIpracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIpracticeApp.swift; sourceTree = "<group>"; };
+		F41422FE2BC8FE1F008A026D /* sgsView9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sgsView9.swift; sourceTree = "<group>"; };
+		F41423002BC9033C008A026D /* sgsView10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sgsView10.swift; sourceTree = "<group>"; };
 		F4142FD42BC658030084A70F /* VL1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VL1.swift; sourceTree = "<group>"; };
 		F4142FD62BC6596C0084A70F /* vl2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vl2.swift; sourceTree = "<group>"; };
 		F4142FD82BC65A2C0084A70F /* vl3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vl3.swift; sourceTree = "<group>"; };
@@ -73,10 +82,11 @@
 		F4CD0E3D2BC58A1E0098DBCB /* ShapeView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView2.swift; sourceTree = "<group>"; };
 		F4CD0E3F2BC58C3E0098DBCB /* ShapView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapView3.swift; sourceTree = "<group>"; };
 		F4CD0E412BC58EB10098DBCB /* shapeView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapeView4.swift; sourceTree = "<group>"; };
-		F4CD0E462BC590BA0098DBCB /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		F4CD0E4A2BC592ED0098DBCB /* MediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaView.swift; sourceTree = "<group>"; };
 		F4CD0E4C2BC5952A0098DBCB /* MediaView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaView2.swift; sourceTree = "<group>"; };
 		F4CD0E4E2BC5990D0098DBCB /* MediaView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaView3.swift; sourceTree = "<group>"; };
+		F4DE8E642BC94002000C7AA5 /* sgsView11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sgsView11.swift; sourceTree = "<group>"; };
+		F4DE8E662BC94920000C7AA5 /* sgsView12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sgsView12.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4CD0E472BC590BA0098DBCB /* AVKit.framework in Frameworks */,
+				F41422AB2BC8F9B9008A026D /* ARKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +142,7 @@
 				F43BE29B2BC39FD0002D44D6 /* Text */,
 				F43BE2912BC39FB6002D44D6 /* Assets.xcassets */,
 				F43BE2932BC39FB6002D44D6 /* Preview Content */,
+				F41422FC2BC8FCE2008A026D /* SwiftUIpracticeApp.swift */,
 			);
 			path = SwiftUIpractice;
 			sourceTree = "<group>";
@@ -183,6 +194,10 @@
 				F46CD43D2BC809D70062D288 /* sgsView6.swift */,
 				F46CD43F2BC80DFD0062D288 /* sgsView7.swift */,
 				F46CD4432BC817980062D288 /* sgsView8.swift */,
+				F41422FE2BC8FE1F008A026D /* sgsView9.swift */,
+				F41423002BC9033C008A026D /* sgsView10.swift */,
+				F4DE8E642BC94002000C7AA5 /* sgsView11.swift */,
+				F4DE8E662BC94920000C7AA5 /* sgsView12.swift */,
 			);
 			path = "Stacks, grids, scrollView";
 			sourceTree = "<group>";
@@ -190,7 +205,7 @@
 		F4CD0E452BC590BA0098DBCB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F4CD0E462BC590BA0098DBCB /* AVKit.framework */,
+				F41422AA2BC8F9B9008A026D /* ARKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -267,6 +282,7 @@
 			files = (
 				F4CD0E402BC58C3E0098DBCB /* ShapView3.swift in Sources */,
 				F4CD0E3C2BC587A10098DBCB /* ShapeView.swift in Sources */,
+				F4DE8E652BC94002000C7AA5 /* sgsView11.swift in Sources */,
 				F46CD4382BC806710062D288 /* sgsView3.swift in Sources */,
 				F43BE2A12BC3A3B2002D44D6 /* TextView2.swift in Sources */,
 				F4142FD72BC6596C0084A70F /* vl2.swift in Sources */,
@@ -275,13 +291,17 @@
 				F43BE29D2BC3A047002D44D6 /* TextView.swift in Sources */,
 				F4142FD52BC658030084A70F /* VL1.swift in Sources */,
 				F46CD4442BC817980062D288 /* sgsView8.swift in Sources */,
+				F41422FF2BC8FE1F008A026D /* sgsView9.swift in Sources */,
 				F4CD0E3E2BC58A1E0098DBCB /* ShapeView2.swift in Sources */,
+				F4DE8E672BC94920000C7AA5 /* sgsView12.swift in Sources */,
 				F4CD0E4B2BC592ED0098DBCB /* MediaView.swift in Sources */,
 				F49E0A852BC6D680004A5335 /* vl6.swift in Sources */,
+				F41423012BC9033C008A026D /* sgsView10.swift in Sources */,
 				F49E0A892BC6D75F004A5335 /* VL8.swift in Sources */,
 				F46CD4402BC80DFD0062D288 /* sgsView7.swift in Sources */,
 				F49E0A872BC6D6E8004A5335 /* vl7.swift in Sources */,
 				F46CD43C2BC8076B0062D288 /* sgsView5.swift in Sources */,
+				F41422FD2BC8FCE2008A026D /* SwiftUIpracticeApp.swift in Sources */,
 				F4CD0E4F2BC5990D0098DBCB /* MediaView3.swift in Sources */,
 				F43BE2A32BC3A564002D44D6 /* TextView3.swift in Sources */,
 				F43BE2C42BC3BCA2002D44D6 /* ImageView.swift in Sources */,
