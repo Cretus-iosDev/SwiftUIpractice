@@ -15,6 +15,12 @@
 		F4142FD72BC6596C0084A70F /* vl2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4142FD62BC6596C0084A70F /* vl2.swift */; };
 		F4142FD92BC65A2C0084A70F /* vl3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4142FD82BC65A2C0084A70F /* vl3.swift */; };
 		F4142FDB2BC65BF00084A70F /* vl4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4142FDA2BC65BF00084A70F /* vl4.swift */; };
+		F4298C242BCA9262004F50BA /* uicView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4298C232BCA9262004F50BA /* uicView7.swift */; };
+		F4298C262BCA93B9004F50BA /* uicView8.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4298C252BCA93B9004F50BA /* uicView8.swift */; };
+		F4298C282BCA9494004F50BA /* uicView9.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4298C272BCA9494004F50BA /* uicView9.swift */; };
+		F4298C2A2BCA9761004F50BA /* uicView10.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4298C292BCA9761004F50BA /* uicView10.swift */; };
+		F4298C2C2BCA9965004F50BA /* uicView11.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4298C2B2BCA9965004F50BA /* uicView11.swift */; };
+		F4298C2E2BCA9C32004F50BA /* uicView12.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4298C2D2BCA9C32004F50BA /* uicView12.swift */; };
 		F43BE2922BC39FB6002D44D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43BE2912BC39FB6002D44D6 /* Assets.xcassets */; };
 		F43BE2952BC39FB6002D44D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43BE2942BC39FB6002D44D6 /* Preview Assets.xcassets */; };
 		F43BE29D2BC3A047002D44D6 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BE29C2BC3A047002D44D6 /* TextView.swift */; };
@@ -24,6 +30,12 @@
 		F43BE2A52BC3A7CA002D44D6 /* TextView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BE2A42BC3A7CA002D44D6 /* TextView4.swift */; };
 		F43BE2A72BC3AB5D002D44D6 /* TextView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BE2A62BC3AB5D002D44D6 /* TextView5.swift */; };
 		F43BE2C42BC3BCA2002D44D6 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BE2C32BC3BCA2002D44D6 /* ImageView.swift */; };
+		F450AC0B2BCA4D4600D1E516 /* uicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450AC0A2BCA4D4600D1E516 /* uicView.swift */; };
+		F450AC0D2BCA507600D1E516 /* uicView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450AC0C2BCA507600D1E516 /* uicView2.swift */; };
+		F450AC0F2BCA53FE00D1E516 /* uicView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450AC0E2BCA53FE00D1E516 /* uicView3.swift */; };
+		F450AC112BCA592300D1E516 /* uicView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450AC102BCA592300D1E516 /* uicView4.swift */; };
+		F450AC132BCA5FCD00D1E516 /* uicView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450AC122BCA5FCD00D1E516 /* uicView5.swift */; };
+		F450AC152BCA61F600D1E516 /* uicView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450AC142BCA61F600D1E516 /* uicView6.swift */; };
 		F46CD4342BC8046B0062D288 /* sgsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46CD4332BC8046B0062D288 /* sgsView.swift */; };
 		F46CD4362BC806040062D288 /* sgsView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46CD4352BC806040062D288 /* sgsView2.swift */; };
 		F46CD4382BC806710062D288 /* sgsView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46CD4372BC806710062D288 /* sgsView3.swift */; };
@@ -56,6 +68,12 @@
 		F4142FD62BC6596C0084A70F /* vl2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vl2.swift; sourceTree = "<group>"; };
 		F4142FD82BC65A2C0084A70F /* vl3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vl3.swift; sourceTree = "<group>"; };
 		F4142FDA2BC65BF00084A70F /* vl4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vl4.swift; sourceTree = "<group>"; };
+		F4298C232BCA9262004F50BA /* uicView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uicView7.swift; sourceTree = "<group>"; };
+		F4298C252BCA93B9004F50BA /* uicView8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uicView8.swift; sourceTree = "<group>"; };
+		F4298C272BCA9494004F50BA /* uicView9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uicView9.swift; sourceTree = "<group>"; };
+		F4298C292BCA9761004F50BA /* uicView10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uicView10.swift; sourceTree = "<group>"; };
+		F4298C2B2BCA9965004F50BA /* uicView11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uicView11.swift; sourceTree = "<group>"; };
+		F4298C2D2BCA9C32004F50BA /* uicView12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uicView12.swift; sourceTree = "<group>"; };
 		F43BE28A2BC39FB4002D44D6 /* SwiftUIpractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIpractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43BE2912BC39FB6002D44D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F43BE2942BC39FB6002D44D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -66,6 +84,12 @@
 		F43BE2A42BC3A7CA002D44D6 /* TextView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView4.swift; sourceTree = "<group>"; };
 		F43BE2A62BC3AB5D002D44D6 /* TextView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView5.swift; sourceTree = "<group>"; };
 		F43BE2C32BC3BCA2002D44D6 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		F450AC0A2BCA4D4600D1E516 /* uicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uicView.swift; sourceTree = "<group>"; };
+		F450AC0C2BCA507600D1E516 /* uicView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uicView2.swift; sourceTree = "<group>"; };
+		F450AC0E2BCA53FE00D1E516 /* uicView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uicView3.swift; sourceTree = "<group>"; };
+		F450AC102BCA592300D1E516 /* uicView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uicView4.swift; sourceTree = "<group>"; };
+		F450AC122BCA5FCD00D1E516 /* uicView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uicView5.swift; sourceTree = "<group>"; };
+		F450AC142BCA61F600D1E516 /* uicView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uicView6.swift; sourceTree = "<group>"; };
 		F46CD4332BC8046B0062D288 /* sgsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sgsView.swift; sourceTree = "<group>"; };
 		F46CD4352BC806040062D288 /* sgsView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sgsView2.swift; sourceTree = "<group>"; };
 		F46CD4372BC806710062D288 /* sgsView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sgsView3.swift; sourceTree = "<group>"; };
@@ -136,6 +160,7 @@
 		F43BE28C2BC39FB4002D44D6 /* SwiftUIpractice */ = {
 			isa = PBXGroup;
 			children = (
+				F450AC092BCA4D1D00D1E516 /* User Interface Controls */,
 				F46CD4322BC804330062D288 /* Stacks, grids, scrollView */,
 				F4142FD32BC657DB0084A70F /* ViewLayout */,
 				F43BE2A82BC3AE33002D44D6 /* Images,Shapes,Media */,
@@ -181,6 +206,25 @@
 				F4CD0E4E2BC5990D0098DBCB /* MediaView3.swift */,
 			);
 			path = "Images,Shapes,Media";
+			sourceTree = "<group>";
+		};
+		F450AC092BCA4D1D00D1E516 /* User Interface Controls */ = {
+			isa = PBXGroup;
+			children = (
+				F450AC0A2BCA4D4600D1E516 /* uicView.swift */,
+				F450AC0C2BCA507600D1E516 /* uicView2.swift */,
+				F450AC0E2BCA53FE00D1E516 /* uicView3.swift */,
+				F450AC102BCA592300D1E516 /* uicView4.swift */,
+				F450AC122BCA5FCD00D1E516 /* uicView5.swift */,
+				F450AC142BCA61F600D1E516 /* uicView6.swift */,
+				F4298C232BCA9262004F50BA /* uicView7.swift */,
+				F4298C252BCA93B9004F50BA /* uicView8.swift */,
+				F4298C272BCA9494004F50BA /* uicView9.swift */,
+				F4298C292BCA9761004F50BA /* uicView10.swift */,
+				F4298C2B2BCA9965004F50BA /* uicView11.swift */,
+				F4298C2D2BCA9C32004F50BA /* uicView12.swift */,
+			);
+			path = "User Interface Controls";
 			sourceTree = "<group>";
 		};
 		F46CD4322BC804330062D288 /* Stacks, grids, scrollView */ = {
@@ -286,27 +330,37 @@
 				F46CD4382BC806710062D288 /* sgsView3.swift in Sources */,
 				F43BE2A12BC3A3B2002D44D6 /* TextView2.swift in Sources */,
 				F4142FD72BC6596C0084A70F /* vl2.swift in Sources */,
+				F4298C242BCA9262004F50BA /* uicView7.swift in Sources */,
 				F43BE29F2BC3A297002D44D6 /* dummyView.swift in Sources */,
 				F46CD43E2BC809D70062D288 /* sgsView6.swift in Sources */,
 				F43BE29D2BC3A047002D44D6 /* TextView.swift in Sources */,
 				F4142FD52BC658030084A70F /* VL1.swift in Sources */,
 				F46CD4442BC817980062D288 /* sgsView8.swift in Sources */,
 				F41422FF2BC8FE1F008A026D /* sgsView9.swift in Sources */,
+				F450AC0F2BCA53FE00D1E516 /* uicView3.swift in Sources */,
 				F4CD0E3E2BC58A1E0098DBCB /* ShapeView2.swift in Sources */,
 				F4DE8E672BC94920000C7AA5 /* sgsView12.swift in Sources */,
 				F4CD0E4B2BC592ED0098DBCB /* MediaView.swift in Sources */,
 				F49E0A852BC6D680004A5335 /* vl6.swift in Sources */,
+				F450AC0B2BCA4D4600D1E516 /* uicView.swift in Sources */,
 				F41423012BC9033C008A026D /* sgsView10.swift in Sources */,
 				F49E0A892BC6D75F004A5335 /* VL8.swift in Sources */,
 				F46CD4402BC80DFD0062D288 /* sgsView7.swift in Sources */,
 				F49E0A872BC6D6E8004A5335 /* vl7.swift in Sources */,
 				F46CD43C2BC8076B0062D288 /* sgsView5.swift in Sources */,
+				F450AC0D2BCA507600D1E516 /* uicView2.swift in Sources */,
+				F450AC112BCA592300D1E516 /* uicView4.swift in Sources */,
 				F41422FD2BC8FCE2008A026D /* SwiftUIpracticeApp.swift in Sources */,
+				F450AC132BCA5FCD00D1E516 /* uicView5.swift in Sources */,
+				F4298C2C2BCA9965004F50BA /* uicView11.swift in Sources */,
 				F4CD0E4F2BC5990D0098DBCB /* MediaView3.swift in Sources */,
 				F43BE2A32BC3A564002D44D6 /* TextView3.swift in Sources */,
 				F43BE2C42BC3BCA2002D44D6 /* ImageView.swift in Sources */,
+				F4298C2A2BCA9761004F50BA /* uicView10.swift in Sources */,
 				F46CD4342BC8046B0062D288 /* sgsView.swift in Sources */,
 				F4142FDB2BC65BF00084A70F /* vl4.swift in Sources */,
+				F450AC152BCA61F600D1E516 /* uicView6.swift in Sources */,
+				F4298C2E2BCA9C32004F50BA /* uicView12.swift in Sources */,
 				F43BE2A52BC3A7CA002D44D6 /* TextView4.swift in Sources */,
 				F46CD43A2BC806CE0062D288 /* sgsView4.swift in Sources */,
 				F46CD4362BC806040062D288 /* sgsView2.swift in Sources */,
@@ -314,6 +368,8 @@
 				F4142FD92BC65A2C0084A70F /* vl3.swift in Sources */,
 				F4CD0E4D2BC5952A0098DBCB /* MediaView2.swift in Sources */,
 				F43BE2A72BC3AB5D002D44D6 /* TextView5.swift in Sources */,
+				F4298C262BCA93B9004F50BA /* uicView8.swift in Sources */,
+				F4298C282BCA9494004F50BA /* uicView9.swift in Sources */,
 				F49E0A832BC6D539004A5335 /* vl5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

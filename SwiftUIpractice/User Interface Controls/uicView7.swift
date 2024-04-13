@@ -1,15 +1,14 @@
-//
-//  uicView7.swift
-//  SwiftUIpractice
-//
-//  Created by Dr. Shrikant Maraskolhe on 13/04/24.
-//
-
 import SwiftUI
 
 struct uicView7: View {
+    //MARK: How to let users select a color with ColorPicker
+    @State private var bgColor = Color.red
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            ColorPicker("Set the background color", selection: $bgColor, supportsOpacity: false)
+        }
+        .frame(maxWidth: .infinity,maxHeight: .infinity)
+        .background(bgColor)
     }
 }
 

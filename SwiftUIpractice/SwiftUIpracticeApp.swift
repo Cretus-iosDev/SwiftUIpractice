@@ -4,7 +4,7 @@ import SwiftUI
 struct SwiftUIpracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            ShapView3()
+            uicView11()
         }
     }
 }

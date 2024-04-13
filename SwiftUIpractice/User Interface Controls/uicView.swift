@@ -1,15 +1,42 @@
-//
-//  uicView.swift
-//  SwiftUIpractice
-//
-//  Created by Dr. Shrikant Maraskolhe on 13/04/24.
-//
-
 import SwiftUI
 
 struct uicView: View {
+//MARK: How to create a tappable button
+    @State private var showDetails = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button("Button title") {
+           print("Button tapped!")
+        }
+        
+        VStack(alignment: .leading) {
+            Button("Show Details") {
+                showDetails.toggle()
+            }
+            
+            if showDetails {
+                Text("You should follow me instagram @cretus.dev")
+                    .font(.largeTitle)
+            }
+        }
+        
+        Button{
+            print("Image tapped!!")
+        } label: {
+            Image("img4")
+        }
+        
+        Button{
+            print("button pressed")
+        } label: {
+            Text("press Me")
+                .padding(20)
+        }
+        .contentShape(Rectangle())
+        
+        Button("Delete", role: .destructive) {
+           print("Perform delete")
+        }
     }
 }
 

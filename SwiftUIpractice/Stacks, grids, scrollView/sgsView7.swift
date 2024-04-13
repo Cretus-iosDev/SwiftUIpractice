@@ -6,21 +6,8 @@ struct sgsView7: View {
      scrolling using ScrollView
      */
     var body: some View {
-//        ScrollView(showsIndicators: false){
-//            VStack(spacing: 20) {
-//                ForEach(0..<10) {
-//                    Text("Item \($0)")
-//                        .foregroundStyle(.white)
-//                        .font(.largeTitle)
-//                        .frame(width: 200, height: 200)
-//                        .background(Color.red)
-//                }
-//            }
-//        }
-//        .frame(height: 350)
-        
-        ScrollView(.horizontal,showsIndicators: false){
-            HStack(spacing: 20) {
+        ScrollView(showsIndicators: false){
+            VStack(spacing: 20) {
                 ForEach(0..<10) {
                     Text("Item \($0)")
                         .foregroundStyle(.white)
@@ -31,6 +18,19 @@ struct sgsView7: View {
             }
         }
         .frame(height: 350)
+        
+//        ScrollView(.horizontal,showsIndicators: false){
+//            HStack(spacing: 20) {
+//                ForEach(0..<10) {
+//                    Text("Item \($0)")
+//                        .foregroundStyle(.white)
+//                        .font(.largeTitle)
+//                        .frame(width: 200, height: 200)
+//                        .background(Color.red)
+//                }
+//            }
+//        }
+//        .frame(height: 350)
         
     }
 }
